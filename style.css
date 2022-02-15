@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #1E2125;
+    font-family: Poppins;
+}
+body{
+    background-color: #ecf0f3 !important;
+}
+nav{
+    box-shadow: .01px 0px 20px #b3b8be;
+    margin-bottom: 50px;
+    position: fixed;
+}
+nav.navbar{
+    
+    font-weight:600;
+    padding: 20px 50px;
+    background-color: #ECF0F3 !important;
+}
+.nav-link{
+    color: #1E2125 !important;
+}
+.introduction{
+    border-bottom: 1px solid #1E2125;
+    padding: 5rem 0 !important;
+}
+.row .col-5 .iamge{
+    width: 100%;
+    margin-top: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #E4EAEE, white);
+}
+.iamge img{
+    margin-top: -110px;
+    width: 100%; 
+    height: auto;
+}
+/* Right part of image  */
+.inner{
+    margin-bottom: 150px;
+}
+.inner span.subtitle{
+    letter-spacing: 2px;
+    margin-bottom: 200px;
+}
+.inner h1{
+    font-family: Open Sans !important;
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 1px;
+}
+.inner h1 span{
+    font-family: Open Sans;
+    color: #FF014F;
+}
+.inner div .description{
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+  /* icon */
+.icon-share .left-icon span{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 20px;
+}
+.icon-share .left-icon ul li{
+    
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+}
+.icon-share .left-icon ul li a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: linear-gradient(to right, #d0e1ec, white);
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #a8b2b8;
+}
+.icon-share .right-icon span{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 20px;
+}
+.icon-share .right-icon ul li{
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+}
+.icon-share .right-icon ul li a{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(to right, #d0e1ec, white);
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #a8b2b8;
+}
+/* features part start  */
+.feature{
+    width: 100%;
+}
