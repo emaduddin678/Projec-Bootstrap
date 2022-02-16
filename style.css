@@ -9,9 +9,9 @@ body{
 nav{
     box-shadow: .01px 0px 20px #b3b8be;
     margin-bottom: 50px;
-    position: fixed;
     font-family: Poppins;
-
+    /* z-index: 999;
+    position: fixed !important; */
 }
 nav.navbar{
     
@@ -19,7 +19,7 @@ nav.navbar{
     padding: 20px 50px;
     background-color: #ECF0F3 !important;
 }
-.nav-link{
+header .navbar .navbar-nav .nav-link{
     color: #1E2125 !important;
 }
 .introduction{
@@ -186,8 +186,77 @@ nav.navbar{
   }
   .resume .container .top .subtitle{
       color: #f70445;
+      font-weight: 500;
   }
   .resume .container .top .title{
-      font-size: 50px;
+      font-size: 70px;
       font-weight: 600;
   }
+  /* skill-name  */
+  .resume .container .skill-name{
+
+  }
+  .resume .container .skill-name .nav .nav-item{
+    
+     border-radius: 5px;      
+     margin-bottom: 5px;
+     box-shadow: 1px 1px 5px #a8b2b8;
+     background-image: linear-gradient(to right, #E4EAEE, white);
+
+  }
+  .resume .container .skill-name .nav .nav-item .nav-link{
+    line-height: 65px;
+    text-align: center;
+    color: #1E2125;
+    font-weight: 500;
+  }
+  .skill-item .education .row .col-6 .left-border{
+      border-left: 4px solid #f70445;
+      
+  }
+  .skill-item .education .row .col-6 .left-border .up-left-box{
+    position: relative;
+  }
+  .skill-item .education .row .col-6 .left-border .up-left-box
+  .box{
+    background-image: linear-gradient(to right, #d7dde0, white);
+    border-radius: 10px;
+  }
+  .skill-item .education .row .col-6 .left-border 
+  .up-left-box .box::after{
+      position: absolute;
+      content: " ";
+      width: 42px;
+      height: 4px;
+      background-color: #f70445;
+      top: 10%;
+      left: 7px;
+  }
+  
+  .skill-item .education .row .col-6 .left-border 
+  .up-left-box .box::before{
+      position: absolute;
+      content: " ";
+      width: 20px;
+      height: 20px;
+      background-color: #ffffff;
+      top: 7%;
+      left: -2.1%;
+      border-radius: 100%;
+      border: 4px solid #f70445;
+  }
+
+  /* .skill-item .education .row .col-6 .left-border .up-left-box
+  .box .upper-box. .up-left .april-fools .university{
+
+  }
+  .skill-item .education .row .col-6 .left-border .up-left-box
+  .box{
+    background-image: linear-gradient(to right, #d7dde0, white);
+    border-radius: 10px;
+  }
+  .skill-item .education .row .col-6 .left-border .up-left-box
+  .box .row{
+      
+      border-bottom: 1px solid #a8b2b8;
+  } */
