@@ -482,3 +482,26 @@ header .navbar .navbar-nav .nav-link{
 .contact .main-box .row .col-5 .card .img-box img{
     border-radius: 10px;
 }
+
+.elementors-icon ul li{
+    
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+}
+.elementors-icon  ul li i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: linear-gradient(to right, #d0e1ec, white);
+    border-radius: 6px;
+    background-color: #1E2125;
+    font-size: 24px;
+    box-shadow: 1px 1px 5px #a8b2b8;
+}
+.elementors-icon span{
+    font-weight: bold;
+    
+}
