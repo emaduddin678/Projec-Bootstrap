@@ -330,3 +330,155 @@ header .navbar .navbar-nav .nav-link{
 #top-rt i{
     color: goldenrod !important;
 }
+#test-left-part{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(255, 255, 255));
+}
+#test-left-part .img-box{
+    border-radius: 10px;
+}
+#test-left-part .img-box img{
+    border-radius: 10px;
+}
+/* Clients part start  */
+.container-fluid .clients  .row .col-12 h5{
+    color: #f70445;
+    letter-spacing: 2px;
+}
+.clients {
+    
+    border-bottom: 1px solid #1E2125;
+}
+.clients .container-fluid .row .col-12 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#clients-left-item div{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(255, 255, 255));
+    box-shadow: 1px 1px 15px #c7c9d3;
+}
+#item-right .card{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(255, 255, 255));
+    box-shadow: 1px 1px 15px #c7c9d3;
+}
+#item-right .card .brand-img-box{
+    border-bottom: 1px solid #7a828d;
+    
+}
+/* Pricing part star  */
+
+.pricing .row .col-5 h5{
+    color: #f70445;
+    letter-spacing: 2px;
+}
+.pricing .row .col-5 h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+/* right part pricing ? */
+.pricing{
+    border-bottom: 1px solid #1E2125;
+}
+
+#static div{
+    
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(255, 255, 255));
+    box-shadow: 1px 1px 15px #c7c9d3;
+}
+#elementor-box{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(229, 231, 236));
+    box-shadow: 1px 1px 15px #c7c9d3;
+}
+#elementor .col-8 h3{
+    font-weight: bolder;
+    font-size: 30px;    
+}
+#elementor .col-4 h5{
+    color: #f70445;
+    font-weight: bolder;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(229, 231, 236));
+    box-shadow: 1px 1px 15px #adb8c7;
+}
+#elementor .text{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#elementors-icon .col-6 i{
+    color: #f70445;
+}
+.order-now h5{
+    color: #f70445;
+    font-weight: 500;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(229, 231, 236));
+    box-shadow: 1px 1px 15px #adb8c7;
+}
+.order-now h5 i{
+    color: #FF014F;
+}
+.blog{
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom: 1px solid #1E2125;
+}
+.blog h5{
+    color: #f70445;
+}
+.blog h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.blog .card {
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(229, 231, 236));
+    box-shadow: 1px 1px 15px #adb8c7;
+}
+.blog .card .img-box{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog .card .img-box img{
+    border-radius: 10px;
+    transform: scale(1);
+}
+.blog .card .img-box img:hover{
+    transform: scale(1.1);
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.blog .card .card-body .row p{
+    font-size: 22px;
+    font-weight: 500;
+}
+/* Contact part start  */
+.contact{
+    text-align: center;
+    border-bottom: 1px solid #1E2125;
+}
+.contact h5{
+    color: #FF014F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact h1{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.contact .main-box .row .col-5 .card{
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(229, 231, 236));
+    box-shadow: 1px 1px 15px #adb8c7;
+}
+.contact .main-box .row .col-5 .card .img-box{
+    border-radius: 10px;
+}
+.contact .main-box .row .col-5 .card .img-box img{
+    border-radius: 10px;
+}
