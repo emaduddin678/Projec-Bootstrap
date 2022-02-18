@@ -16,13 +16,13 @@
 
 
 <body>
-    <header ><!--class="mb-5"-->
+    <header><!--class="mb-5"-->
         <nav class="navbar navbar-expand-sm">
             <a href="#"><img src="image/logo-dark.png" 
                 style="width: 130px;" alt="logo-pic"></a>
 
 
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto ">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
@@ -797,32 +797,48 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-7 text-left">
-                        <div class="form-box px-1">
-                            <div class="row mt-3">
-                                <div class="col-6 p-2">
-                                    <form action="">
-                                        <label for="name">Your Name</label>
-                                        <input type="text" class="form-control" name="name">
-                                    </form>
-                                </div>
-                                <div class="col-6 p-2">
-                                    <form action="">
-                                        <label for="number">Phone Number</label>
-                                        <input type="number" class="form-control" name="number">
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <form action="">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" name="email">
-                                    </form>
-                                </div>
-                                
-                            </div>
+                    <div class="col-7">
+                        <div class="form-box p-4">
+                            <form action="" class="was-valid">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="name" class="d-flex justify-content-left"> Your Name</label>
+                                            <input type="text" class="form-control " name="name" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Please fill up all</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="Phone-number" class="d-flex justify-content-left">Phone Number</label>
+                                            <input type="number" class="form-control " name="number" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Please fill up all</div>
 
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="d-flex justify-content-left">Emai</label>
+                                    <input type="email" class="form-control " name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject" class="d-flex justify-content-left">Subject</label>
+                                    <input type="text" class="form-control " name="subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="d-flex justify-content-left">Your Message</label>
+                                    <textarea style="resize: none;" name="message" id="" class="form-control" cols="30" rows="10" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="SEND MESSAGE" class="form-control py-3">
+                                </div>
+
+
+
+                            </form>
                         </div>
                     </div>
                 </div>

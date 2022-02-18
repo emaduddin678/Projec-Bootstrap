@@ -386,7 +386,7 @@ header .navbar .navbar-nav .nav-link{
 #static div{
     
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(222, 227, 231), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(222, 227, 231), rgb(239, 241, 245));
     box-shadow: 1px 1px 15px #c7c9d3;
 }
 #elementor-box{
@@ -497,11 +497,15 @@ header .navbar .navbar-nav .nav-link{
     text-align: center;
     background-image: linear-gradient(to right, #d0e1ec, white);
     border-radius: 6px;
-    background-color: #1E2125;
     font-size: 24px;
     box-shadow: 1px 1px 5px #a8b2b8;
 }
 .elementors-icon span{
     font-weight: bold;
     
+}
+.form-box{
+    background-image: linear-gradient(to right, #E3E9ED, #F2F5F6);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #a8b2b8;
 }
