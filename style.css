@@ -271,13 +271,20 @@ header .navbar .navbar-nav .nav-link{
   .resume .container-fluid .skill-name .nav .nav-item 
   .nav-link:hover{
       color: #f70445;
-      transition: all .3s linear;
+      transition: all .3s lineare;
 
   }
   
   .skill-item .education .row .col-6 .left-border{
       border-left: 4px solid #f70445;
       
+  }
+  .skill-item .education .row .col-6 .left-border .up-left-box
+  .btn-color{
+    
+    border-radius: 5px ;
+    box-shadow: 1px 1px 5px rgb(151, 154, 160) ;
+    border: none;
   }
   .skill-item .education .row .col-6 .left-border .up-left-box{
     position: relative;
@@ -405,17 +412,20 @@ header .navbar .navbar-nav .nav-link{
     border-radius: 10px;
 }
 /* Clients part start  */
+.container-fluid .clients  .row .col-12 h5.subtitle{
+    color: #DB1021;
+}
 .container-fluid .clients  .row .col-12 h5{
-    color: #f70445;
+    color: #3C3E41;
     letter-spacing: 2px;
 }
 .clients {
     
     border-bottom: 1px solid #1E2125;
 }
-.clients .container-fluid .row .col-12 h1{
+.clients  .row .col-12 h1{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 2px;
 }
 #clients-left-item div{
@@ -494,6 +504,16 @@ header .navbar .navbar-nav .nav-link{
 }
 .order-now h5 i{
     color: #FF014F;
+}
+.order-now h5:hover{
+    transition: all .3s linear;
+    background-image: linear-gradient(to right, #FE014D, #DB1021);
+    cursor: pointer;
+    color: white;
+}
+.order-now h5:hover i{
+    color: white;
+    transition: all .3s linear;
 }
 .blog{
     letter-spacing: 2px;
@@ -581,6 +601,20 @@ header .navbar .navbar-nav .nav-link{
     background-image: linear-gradient(to right, #E3E9ED, #F2F5F6);
     border-radius: 10px;
     box-shadow: 1px 1px 5px #a8b2b8;
+}
+.form-box .new:hover{
+    color: white !important;
+}
+.new{
+    color: #fc0845 !important;
+}
+.form-box .active{
+    font-weight: 500;
+    background: white;
+}
+.form-box .active:hover{
+    transition: all .3s linear;
+    background-color: #fc0845;
 }
 /* Footer part start  */
 /* .footer.container-fluid h6 */
